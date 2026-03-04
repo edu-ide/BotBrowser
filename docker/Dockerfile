@@ -1,7 +1,7 @@
 FROM --platform=linux/amd64 debian:bookworm-slim
 
 # Path to BotBrowser binary
-ENV BOTBROWSER_EXEC_PATH=/usr/bin/chromium-browser-stable
+ENV BOTBROWSER_EXEC_PATH=/opt/chromium.org/chromium/chrome
 # Display for Xvfb if you want to launch browser with headful mode
 ENV DISPLAY=:99
 
